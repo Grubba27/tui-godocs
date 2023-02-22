@@ -45,5 +45,5 @@ func main() {
 	}
 	m := strings.Join(markdown, "\n")
 	out, _ := glamour.Render(m, "dracula")
-	fmt.Print(out)
+	fmt.Println(out)
 }
